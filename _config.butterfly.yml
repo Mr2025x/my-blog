@@ -18,14 +18,14 @@ nav:
   fixed: false
 
 menu:
-  首页: / || fas fa-home
+  Home: / || fas fa-home
+  导航: https://plankton2005.best || fas fa-globe
+  Notebook: https://wiki.plankton2005.best || fas fa-server
   页面 || fas fa-compass:
     归档: /archives/ || fas fa-archive
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
-  文档 || fas fa-book:
-    算法笔记: /categories/算法/ || fas fa-code
-    硬件电路: /categories/硬件/ || fas fa-microchip
+  友链: /link/ || fas fa-link
   留言板: /comments/ || fas fa-comment-dots
 # --------------------------------------
 # Code Blocks Settings
@@ -46,10 +46,12 @@ code_blocks:
 # Social media links
 # Formal:
 #   icon: link || the description || color
+  # 格式: 图标代码: 链接 || 鼠标悬停时的文字说明 || 图标悬停颜色
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
-
+  fab fa-github: https://github.com/mr2025x || my GitHub || '#00c4b6'
+  fas fa-globe: https://plankton2005.best || my general Portal || '#00c4b6'
+  fas fa-book-journal-whills: https://wiki.plankton2005.best || my Notebook || '#00c4b6'
+  fas fa-link: /link/ || my Friends || '#00c4b6'
 # --------------------------------------
 # Image Settings
 # --------------------------------------
@@ -57,7 +59,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /img/my-avatar.jpg
   effect: false
 
 # Disable all banner images
@@ -355,7 +357,7 @@ aside:
     # Time difference between publish date and now
     # Formal: Month/Day/Year Time or Year/Month/Day Time
     # Leave it empty if you don't enable this feature
-    runtime_date:
+    runtime_date: 2026-02-14 00:05:20
 
 # --------------------------------------
 # Bottom right button
@@ -536,14 +538,14 @@ comments:
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  use:
+  use: Giscus
   # Display the comment name next to the button
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
   lazyload: false
   # Display comment count in post's top_img
-  count: false
+  count: true
   # Display comment count in Home Page
   card_post_count: false
 
@@ -633,9 +635,9 @@ twikoo:
 # Giscus
 # https://giscus.app/
 giscus:
-  repo:
-  repo_id:
-  category_id:
+  repo: mr2025x/my-blog
+  repo_id: R_kgDOROuQNg
+  category_id: DIC_kwDOROuQNs4C2aW0
   light_theme: light
   dark_theme: dark
   js:
