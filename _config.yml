@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: Plankton's Blog
+subtitle: 'Stay hungry, stay foolish.'
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Plankton
+language: zh-CN
 timezone: ''
 
 # URL
@@ -102,3 +102,9 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html

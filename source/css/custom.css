@@ -1,0 +1,25 @@
+/* 1. 调整首页大图主标题的字体和大小 */
+#site-title {
+    font-size: 4rem !important; /* 原本大概是 2.5rem，这里调大到 4rem，你可以自己改数字测试 */
+    /* 换一个更好看的、更极客的字体，比如 Fira Code 或 微软雅黑 */
+    font-family: 'Fira Code', 'Microsoft YaHei', -apple-system, sans-serif !important; 
+    font-weight: bold;
+    letter-spacing: 2px; /* 增加一点字间距，显得更高级 */
+}
+
+/* 2. 调整首页大图副标题的字体和大小 */
+#site-subtitle {
+    font-size: 1.8rem !important; /* 调大副标题 */
+    font-family: 'Fira Code', 'Microsoft YaHei', sans-serif !important;
+}
+
+/* 3. 修改页面最底部 (Footer) 的颜色，去掉蓝色，改为深灰色 */
+#footer {
+    background: #141414 !important; /* 高级深灰/近黑色 */
+    color: #a9a9a9 !important;      /* 底部文字改为浅灰色，保证能看清 */
+}
+
+/* （可选）如果你觉得原本的蓝色线条或链接还在，可以加上这个覆盖掉底部的蓝色链接 */
+#footer a {
+    color: #00c4b6 !important; /* 鼠标没放上去时的颜色（赛博青） */
+}
