@@ -32,7 +32,7 @@ description: "这里是我的网站矩阵，以及在广袤互联网上结识的
       descr: 宸垂象于云汉无痕 禹随形于川谷不争
     - name: wjt
       link: https://crescentyves.me
-      avatar: https://crescentyves.me/favicon.svg
+      avatar: https://github.com/crescentyves.png
       descr: lust for life keeps us alive
 
 
